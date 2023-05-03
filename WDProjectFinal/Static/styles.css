@@ -1,0 +1,97 @@
+.imgdiv {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    ;
+}
+
+.hide {
+    padding: 10px;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.match,
+.showimg {
+    visibility: visible !important;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.start-button {
+    margin: auto;
+    width: fit-content;
+    border: 3px solid green;
+    padding: 20px;
+    position: relative;
+}
+
+.next-button {
+    margin: auto;
+    width: fit-content;
+    border: 3px solid green;
+    padding: 10px;
+    position: relative;
+}
+
+.red-button {
+    margin: auto;
+    width: fit-content;
+    border: 3px solid rgb(117, 8, 8);
+    padding: 10px;
+    position: relative;
+}
+
+.container {
+    position: relative;
+}
+
+.parent {
+    position: relative;
+}
+
+.image1 {
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+
+.image2 {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.gameborder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vw;
+    margin-left: -25vw;
+    width: 50vw;
+    box-shadow: 5px;
+}
+
+.mainbody{
+    background-image: url("data/arcade-unsplash.jpg");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
